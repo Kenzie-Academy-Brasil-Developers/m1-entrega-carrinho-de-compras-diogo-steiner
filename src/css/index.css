@@ -1,0 +1,175 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f3f5;
+    gap: 50px;
+}
+
+header {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 40px 0;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+
+/* .products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+
+.desc {
+    background-color: #212529;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
+
+.desc span:first-child {
+    font-weight: bold;
+}
+
+.list {
+    display: flex;   
+    flex-direction: column;
+    gap: 20px;   
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #f1f3f5;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #dcdee0;
+
+}
+
+.list .card span:first-child {
+    font-weight: 550;
+}
+
+
+.resumo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.resumo-total {
+    background-color: #e9ecef;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: .4s;
+}
+
+.resumo-total:hover {
+    background-color: #cfd3d6;
+}
+
+.resumo-btn {
+    padding: 18px 0;
+    background-color: #20c997;
+    border: 1px solid #1daa80;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.resumo-btn:hover {
+    cursor: pointer;
+    background-color: #1db98a;
+
+}
+
+
+.btn-modo-dark {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.btn-dark {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.body-dark {
+    background-color: rgb(56, 56, 56);
+}
+
+.titulo-dark {
+    color: white;
+}
+
+
+.products-dark {
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.desc-dark {
+    background-color: rgb(29, 29, 29);
+}
+
+.card-dark {
+    background-color: rgb(49, 49, 49);
+}
+
+.card-dark:hover {
+    background-color: rgb(54, 54, 54);
+}
+
+
+.resumo-dark {
+    background-color: rgb(42, 42, 42);
+    color: white;
+}
+
+.resumo-btn-dark {
+    background-color: #1db688;
+}
+.resumo-btn-dark:hover {
+    background-color: #1ebe8e;
+
+}
+
+.resumo-dark:hover {
+    background-color: rgb(44, 44, 44);
+}
